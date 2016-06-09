@@ -48,11 +48,10 @@ h1,h2{
 	text-align: center;
 }
 section{
-	background-color: #FFE2B8;
 	border: 1px black solid;
 	text-align: center;
 	padding:20px;
-	margin: 2em auto;	
+	margin: 2em auto;
 }
 .quote{
 	font-style: italic;
@@ -65,10 +64,19 @@ section{
 	border: 1px black solid;
 	padding: 20px;
 }
-.CTA{
-	background-color: #FFE2B8;
+.action{
+	background-color: purple;
 	border: 1px black solid;
 	padding: 20px;
+	color:#fff;
+}
+.CTA {
+	display:inline-block;
+	text-decoration:none;
+	border:2px solid #fff;
+	padding:1em 2em;
+	color:inherit;
+	margin-top:1em;
 }
 #me{
 	background-color:#FFE2B8;
