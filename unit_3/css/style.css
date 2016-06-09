@@ -9,11 +9,17 @@ body{
 }
 
 header{
-		background-color: #126358;
+		background-color: #FFED74;
+		border: 1px black solid;
 		padding: 20px;
 		text-align: right;
 		height: 10vh;
 		margin-bottom: 0;
+	}
+	nav{
+		background-color: #E8C66A;
+		border: 1px black solid;
+		padding:20px;
 	}
 #slogan{
 	font-style: italic;
@@ -35,23 +41,16 @@ header{
 	display:inline-block; /* ask John about this in unit 5 */
 	padding:2em;
 }
-footer{
-	background-color: #126358;
-	padding: 20;
-	text-align: center;
-}
-nav a{
-	color: #FFFFFF;
-	align: center;
-	margin-right: 20px;
-}
+
 h1,h2{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 }
 section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
 	text-align: center;
-	padding: 2em 4em;
+	padding:20px;
 	margin: 2em auto;	
 }
 .quote{
@@ -59,4 +58,30 @@ section{
 }
 #image1{
 	box-sizing: 200;
+}
+#background{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+.CTA{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#me{
+	background-color:#FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+nav a{
+	color: #FFFFFF;
+	align: center;
+	margin-right: 20px;
 }
