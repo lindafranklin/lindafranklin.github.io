@@ -1,0 +1,128 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Gudea);
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	font-size: 16px;
+	font-family: 'Gudea', sans-serif;
+	font-color: #3B352E;
+}
+
+header{
+		background-color: #FFED74;
+		border: 1px black solid;
+		padding: 20px;
+		text-align: center;
+		height: 10vh;
+		margin-bottom: 0;
+	}
+nav{
+	background-color:#E8C66A
+	border: 1px black solid;
+	text-align: right;
+	padding: 20px;
+}
+#slogan{
+	font-style: italic;
+	text-align: left;
+	margin-right: 0;
+}
+#splash{
+	background-image: url('../images/heroimage.JPG');
+	background-size: cover;
+	background-repeat:no-repeat;
+	color:#fff;
+	height:75vh;
+	padding-top:10em;
+	margin-top: 0;
+	text-align: center
+	}
+#splash div {
+	background:#126358;
+	display:inline-block; /* ask John about this in unit 5 */
+	padding:2em;
+}
+
+h1,h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+section{
+	border: 1px black solid;
+	text-align: center;
+	padding:20px;
+	margin: 2em auto;
+}
+.quote{
+	font-style: italic;
+}
+#image1{
+	box-sizing: 200;
+}
+#background{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+.action{
+	background-color: purple;
+	border: 1px black solid;
+	padding: 20px;
+	color:#fff;
+}
+.CTA {
+	display:inline-block;
+	text-decoration:none;
+	border:2px solid #fff;
+	padding:1em 2em;
+	color:inherit;
+	margin-top:1em;
+}
+#me{
+	background-color:#FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+nav a{
+	color: #FFFFFF;
+	align: center;
+	margin-right: 20px;
+}
+#left{
+	background-color:#ffB7CF;
+	border:1px black solid;
+	padding:20px;
+	margin: 0 10px;
+	float:left;
+	width: 30%;
+}
+#middle{
+	background-color:#E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 0 10px;
+	float:left;
+	width:30%;
+}
+#right{
+	background-color:#E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 0 10px;
+	float:left;
+	width:30%;
+}
+.clearfix:after{
+	display:block;
+	content:" ";
+	clear:both;
+	font-size:0;
+	visibility:0;
+	height:0;
+}

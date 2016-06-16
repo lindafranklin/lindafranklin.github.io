@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+nav{
+	background-color: blue;
+	font-family: Arial, sans-serif;
+}
+nav a{
+	background-color:yellow;
+	color:#000;
+	text-decoration: none;
+	display:block;
+	float:left;
+	padding:40px;
+	
+}
+.column{
+	float:left;
+	width:400px;
+	height:400px;
+	padding:40px;
+	margin:20px;
+}
+#column1{
+	background-color:blue;
+}
+#column2{
+	background-color:red;
+}
+#column3{
+	background-color: yellow;
+}
+footer {
+	clear:both;
+}
+.clearfix:after{
+	display:block;
+	content:" ";
+	clear:both;
+	font-size:0;
+	visibility:hidden;
+	height:0;
+}
