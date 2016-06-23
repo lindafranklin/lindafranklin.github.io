@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+<H1>General Assembly offers Classes Worldwide</H1>
+<h2>For Immediate Release</h2>
+<p>General Assembly offers classes and workshops in:</p>
+<ol>
+<li>Atlanta</li>
+<li>Austin</li>
+<li>Chicago</li>
+</ol>
+<p>for more information, visit<a href="http://ga.com">General Assembly's website</a>.</p>
+</body>
+</html>
+
+

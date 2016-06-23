@@ -35,6 +35,13 @@ nav a{
 footer {
 	clear:both;
 }
+section{
+	background-color: red;
+}
+#section1{
+	background-color: blue;
+	
+}
 .clearfix:after{
 	display:block;
 	content:" ";

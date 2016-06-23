@@ -9,7 +9,7 @@ body{
 }
 
 header{
-		background-color: #FFED74;
+		background-color: red;
 		border: 1px black solid;
 		padding: 20px;
 		text-align: right;
@@ -17,7 +17,7 @@ header{
 		margin-bottom: 0;
 	}
 	nav{
-		background-color: #E8C66A;
+		background-color: blue;
 		border: 1px black solid;
 		padding:20px;
 	}
