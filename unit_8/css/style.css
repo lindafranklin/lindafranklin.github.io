@@ -281,14 +281,30 @@ footer{
 
 @media only screen and (max-width:585px){
 	.column {
-		width:40%;
+		width:35%;
 		height:10em;
 		padding: 3% 5%;
 		margin:3% 3%;
-		}
+	}
+	h3{
+	font-size: .8em;
+	}
 	.insidetext{
 		display: none;
-		}
+	}
+}
+@media only screen and (max-width:532px){
+	.column {
+		height:8em;
+	}
+}
+@media only screen and (max-width:400px){
+	.column {
+		height:7em;
+	}
+	h3{
+	font-size: .7em;
+	}
 }
 
 @media only screen and (max-width:1147px){
