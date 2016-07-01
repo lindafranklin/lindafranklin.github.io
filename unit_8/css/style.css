@@ -39,7 +39,7 @@ nav a:hover{
 	background-size:cover;
 	background-repeat: no-repeat;
 	color:#fff;
-	height:125%;
+	height:75%;
 	padding-top: 11.7%;
 	text-align: center;
 	margin-top: 0;
@@ -176,16 +176,14 @@ hr{
 }
 
 a{
-	text-align: center;
-}
-a{
 	text-decoration: none;
 	color:#382D2A;
 	font-weight: 600;
+	text-align:  center;
 }
 footer{
 	padding:1.3%;
-	margin:5%;
+	margin: 10% 0 0 0;
 	background-color:#EDF0EA;
 	text-align: center;
 	clear:both;
@@ -198,11 +196,12 @@ footer{
 		text-align: center;
 		width: 100%;
 		margin:0;
+		display: inline-block;
 		float:none;
 		}
 	nav a{
-		font-size: 1em;
-		padding: 1% 40%	1 40%;
+		/*padding: 1% 40%	0 40%;*/
+		display: inline-block;
 		}	
 	p.logo{
 	font-size: 1em;
@@ -211,18 +210,45 @@ footer{
 		background-color:#382D2A; 
 	}
 }
-@media only screen and (max-width:600px){
-	#splash{
-		padding-top: 15%;
-		text-align: center;
-		margin-top: 0;
+@media only screen and (max-width:1116px){
+	#splash div{
+	padding: 4.5% 8%;
+	font-size: 1em;
 	}
-	
-}
-
-@media only screen and (max-width:474px){
-	h1{
+	nav a{
 		font-size: 1em;
+	}
+}
+	
+@media only screen and (max-width:842px){
+	#splash div{
+		padding: 4.5% 5%;
+	}
+}
+@media only screen and (max-width:583px){
+	#splash div{
+		padding: 4.5% 2%;
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width:526px){
+	#splash div{
+		padding: 4.5% 1%;
+		font-size: .75em;
+	}
+}
+@media only screen and (max-width:474px){
+	#splash div{
+		padding: 4.5% 1%;
+		font-size: .65em;
+	}
+	nav a{
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width:322px){
+	nav a{
+		font-size: .8em;
 	}
 }
 @media only screen and (max-width:1030px){
@@ -236,17 +262,41 @@ footer{
 	}
 }
 @media only screen and (max-width:529px){
-	#one{
-		width:100%;
-	}
-	#one>p{
+		#one>p{
 		font-size: .85em;
 	}
+	h2{
+		font-size: 1.3em;
+	}
 }
+@media only screen and (max-width:446px){
+		#foryou{
+			visibility: hidden;
+		}
+}
+@media only screen and (max-width:391px){
+		#one>p{
+		font-size: .65em;
+	}
+}
+@media only screen and (max-width:768px){
+	.label{
+	transform:translateY(+65%);
+	}	
+}
+
+@media only screen and (max-width:363px){
+	.label{
+	transform:translateY(+60%);
+	padding:.75%;
+	}	
+}	
+
+
 @media only screen and (max-width:1088px){
 	.column{
 		width:27%;
-		height:12em;
+		/*height:12em;*/
 		padding: 1.3% 2% 3%;
 		margin:1.3% 3%;
 	}
@@ -281,8 +331,8 @@ footer{
 
 @media only screen and (max-width:585px){
 	.column {
-		width:35%;
-		height:10em;
+		width:42%;
+		height:8em;
 		padding: 3% 5%;
 		margin:3% 3%;
 	}
@@ -293,11 +343,7 @@ footer{
 		display: none;
 	}
 }
-@media only screen and (max-width:532px){
-	.column {
-		height:8em;
-	}
-}
+
 @media only screen and (max-width:400px){
 	.column {
 		height:7em;
@@ -318,6 +364,7 @@ footer{
 		width:95%;
 		height:8em;
 		float:none;
+		margin: 2.5% 2.2%;
 	}	
 	#goodstuff{
 		margin:5% auto;
@@ -326,18 +373,11 @@ footer{
 		font-size: .9em;
 	}
 }
-@media only screen and (max-width:965px){
-	.row{
-		margin: 2.5% 2.2%;
-	}
-}
-@media only screen and (max-width:400px){
-	.row{
-		height:10em;
-	}	
-@media only screen and (max-width:700px){
+
+@media only screen and (max-width:707px){
 	.row{
 		margin: 5% auto 5%;
+		height: 10em;
 	}	
 }
 @media only screen and (max-width:600px){
@@ -360,14 +400,68 @@ footer{
 		font-size: .7em;
 	}
 }
-@media only screen and (max-width:960px){
-	#text2{
-		width: 80%;
-		margin: 0 auto;
-		clear:both;
-		}
-	#text{
-		margin:0 2% 0 1%;
-		}
+@media only screen and (max-width:384px){
+	.row{
+		height: 10em;
+		margin: 6% auto 5%;
+	}
 }
-	
+@media only screen and (max-width:319px){
+	.row{
+		height: 12em;
+		margin: 6% auto 5%;
+	}
+}
+@media only screen and (max-width:678px){
+	#about{
+		margin: 5% 3%;
+	}
+}
+@media only screen and (max-width:434px){
+	#about{
+		margin: 7% 3%;
+	}
+}	
+@media only screen and (max-width:960px){
+	#photo{
+	width: 30%;
+	margin:0 ;
+	float:left;
+	}
+#photoimage{
+	width:100%;
+}
+#text{
+	width: 65%;
+	margin:0 2% 0 1%;
+	font-size: .75em;
+	float:left;
+	}
+}
+@media only screen and (max-width:700px){
+	#text{
+	font-size: .65em;
+	}
+}
+@media only screen and (max-width:625px){
+	#text{
+	width: 90%;
+	margin:0 auto;
+	float:none;
+	}
+	#photo{
+	margin: 1% 5%;
+	}
+}
+@media only screen and (max-width:368px){
+	#text{
+		font-size: .58em;
+	}
+}
+
+
+@media only screen and (max-width:850px){
+	#footer{
+	margin: 20% 0 0 0;
+	}
+}
